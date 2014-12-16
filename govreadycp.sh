@@ -108,7 +108,7 @@ function mem_info(){
 # Start OpenScap Utilties download and run scan
 function oscap_install(){
 	write_header " OPENSCAP installing "
- 	yum install -y openscap-utils
+ 	apt-get install -y openscap-utils
     echo "*********************************"
 	echo "*** Getting Guidelines ***"
     echo "*********************************"
